@@ -50,7 +50,12 @@ p{
     font-weight: normal;
 	font-size: 13px;
 	line-height: 20px;
+	margin-top: 10px !important;
+}
 
+a{
+	text-decoration: none;
+	background-color: #ddd;
 }
 
 h1{
@@ -110,6 +115,15 @@ h3{
   width: 20%;
 }
 
+
+#icon{
+	width: 2em;
+	height: 2em;
+	border-radius: 1em; 
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    background-color: rgba(39,117,137,.5);
+}
 
 
 

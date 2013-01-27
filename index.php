@@ -20,7 +20,7 @@
 <body>
 
 <header>
-	<img src="img/salernes_bw.jpg" alt="60" />
+	<img src="img/petitreve.jpg" alt="60" />
 </header>
 
 <div id="sixty" onclick="this.style.visibility='hidden'">
@@ -28,8 +28,8 @@
 </div>
 
 
-<h1><span class="fr">30</span> <span class="de">+ 30</span> <span class="en"> = 60</span></h1>
 <div id="grid">
+<h1><span class="fr">30</span> <span class="de">+ 30</span> <span class="en"> = 60</span></h1>
   <div class="col-1 fr">
   	<h3>Nos 60 ans</h3>
     <p>Fetez nos 60 ans avec nous en la merveilleuse Provence!</p>
@@ -44,11 +44,41 @@
   </div>
 </div>
 
-</br>
+<div id="grid">
 <h1><span class="fr">Lieu.</span> <span class="de">Location.</span> <span class="en">Location.</span></h1>
+  <div class="col-1 fr">
+  	<h3>SALERNES</h3>
+    <p>Petit Reve</p>
+  </div>
+  <div class="col-2 de">
+     <h3>SALERNES</h3>
+     <p>Fetez nos 60 ans avec nous en la merveilleuse Provence!</p>
+  </div>
+  <div class="col-3 en">
+  	 <h3>SALERNES</h3>
+     <p>Please do <u>not</u> consider to do any part of the travel with Deutsche Bahn.</p>
+  </div>
+</div>
 
-</br>
+
+
+<div id="grid">
 <h1><span class="fr">Voyage.</span> <span class="de">Anreise.</span> <span class="en">Travel.</span></h1>
+  <div class="col-1 fr">
+    <img src="img/train_fr.png" alt="60" />
+  </div>
+  <div class="col-2 de">
+     <img src="img/train_de.png" alt="60" />
+  </div>
+  <div class="col-3 en">
+  	 <img src="img/train_en.png" alt="60" />
+     <p>The next train station from Salernes is Les Arcs/Draguignan.</p>
+     <p>For train tickets check here: <a href="http://www.capitainetrain.com/">capitainetrain.com</a> (in French)
+     Let us know when you arrive and someone is coming to pick you up.</p>
+     <p>Please do <u>not</u> consider to do any part of your travel with Deutsche Bahn.</p>
+  </div>
+</div>
+
 
 
 <!-- div id="footer">
