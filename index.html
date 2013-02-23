@@ -36,7 +36,7 @@
 		];
 
 		var mapOptions = {
-			zoom: 16,
+			zoom: 9,
 			panControl: true,
 			zoomControl: true,
 			mapTypeControl: false,
@@ -68,7 +68,7 @@
 				icon: image
 			});
 		}
-		</script>
+	</script>
 
 		<title>30 + 30</title>
 
@@ -76,16 +76,19 @@
 
 	<body onload="initialize()">
 
+	<div id="bg">
+		<p></p>
+	</div>
+		
 	<div id="sixty">
-		<p onclick="this.style.visibility='hidden'">60</p>
+		<p class="rw-words rw-words-1"><span>!</span><span>30</span><span>+</span><span>30</span><span>=</span><span>60</span></p>
 	</div>
 
 
 		<div class="content">
 			
 			<div class="container_12">
-				<h1><span class="fr">30</span> <span class="de">+ 30</span> <span class="en"> = 60</span></h1>
-
+			
 				<div class="grid_4 fr">
 					<h3>Nos 60 ans</h3>
 					<p>Vous êtes invités à fêter nos 60 ans communs sous le soleil de Provence!</p>
@@ -101,44 +104,58 @@
 
 
 
-				<h1><span class="fr">Lieu.</span> <span class="de">Location.</span> <span class="en">Location.</span></h1>
+				<h1><span class="grid_4 fr">Lieu.</span> <span class="grid_4 de">Location.</span> <span class="grid_4 en">Location.</span></h1>
 
 				<div class="grid_4 fr">
-					<h3>SALERNES</h3>
-					<p>Petit Reve</p>
+					<img src="img/map_pin_stroke_20x32.png" alt="location" />
+					<p>La fête aura lieu au Petit Rêve, dans le village de Salernes à 25km à l'ouest de Draguignan. Dans les terres, entre Aix en Provence et Cannes.</p>
 				</div>
+				
 				<div class="grid_4 de">
-					<h3>SALERNES</h3>
+					<img src="img/map_pin_stroke_20x32.png" alt="location" />
 					<p>Fetez nos 60 ans avec nous en la merveilleuse Provence!</p>
 				</div>
 				<div class="grid_4 en">
-					<h3>SALERNES</h3>
-					<p>Please do <u>not</u> consider to do any part of the travel with Deutsche Bahn.</p>
+					<img src="img/map_pin_stroke_20x32.png" alt="location" />
+					<p>The party will take place at le Petit Rêve (the tiny dream), in Salernes. Inland, between Marseille and Nice.</p>
 				</div>
 
 				<div id="map_canvas" style="width:100%; height:450px"></div>
 
-				<h1><span class="fr">Voyage.</span> <span class="de">Anreise.</span> <span class="en">Travel.</span></h1>
+				<h1><span class="grid_4 fr">Voyage.</span> <span class="grid_4 de">Anreise.</span> <span class="grid_4 en">Travel.</span></h1>
 
 				<div class="grid_4 fr">
 					<img src="img/train_fr.png" alt="60" />
-					<p>La gare la plus proche de Salernes est Les Arcs/Draguignan.</p>
+					<p>La gare la plus proche de Salernes est Les Arcs/Draguignan desservie par le TGV.</p>
+					<p>Nous allons organiser des navettes de la gare selon les heures d'arrivée.</p>
+					<img src="img/car_en" alt="by car" /> <span style="margin-left:10px;">Covoiturage:</span>
+					<p>Si vous venez de Paris en voiture, ou que vous êtes de Paris mais sans voiture, 
+						faites nous signe, nous essaierons de coordonner des co-voiturages.
+						Pareil si vous pensez arriver de Marseille, Toulon ou Nice.
+					</p>
+					<p>Les coordonnées GPS sont (43.572991, 6.242369).</p>
+					<img src="img/plane_en.png" alt="by plain" />
+					<p>Toulon (TLN) est à environ 85 km de Salernes, Nice (NCE) 100km et Marseille 115km.</p>
+					
 				</div>
 				<div class="grid_4 de">
 					<img src="img/train_de.png" alt="60" />
 				</div>
 				<div class="grid_4 en">
 					<img src="img/plane_en.png" alt="by plain" />
-					<p>Airports NCE and TLN are about 100 km from Salernes. Marseille about XXX km.</p>
+					<p>Toulon's Airport (TLN) is about 85 km from Salernes, Nice (NCE) about 100km and Marseille about 115km.</p>
+					<p>Once you booked your flight, let us know we'll do our best to organize shared rides.</p>
 					<img src="img/train_en.png" alt="by train" />
-					<p>The next train station from Salernes is Les Arcs/Draguignan.</p>
+					<p>The closest train station to Salernes is Les Arcs/Draguignan.</p>
 					<p>For train tickets check <a href="http://www.raileurope.com/index.html">rail-europe</a> or <a href="http://www.tgv-europe.com/en/">tgv-europe</a>.
 						Let us know when you arrive and someone is coming to pick you up.
 					</p>
 					<img src="img/no_db_en" alt="do not travel with DB" />
-					<p>Please do <u>not</u> consider to do any part of your travel with Deutsche Bahn. They disgust.</p>
+					<p>We encourage you to <u>avoid</u> Deutsche Bahn for any part of your travel. 
+						Deutsche Bahn sucks, cheats, steals, and intimidates if you do not comply.</p>
 					<img src="img/car_en" alt="by car" />
-					<p>Please use the GPS coordinates from the map above.</p>
+					<p>If you plan on renting a car from the airport, let us know you may be able to give someone a lift.</p>
+					<p>The GPS coordinates are (43.572991, 6.242369).</p>
 				</div>
 
 			</div>
@@ -146,13 +163,16 @@
 
 
 
-<div id="footer">
+<!--div id="footer">
 <p> Wir freuen uns auf Euch! </p>
-</div>
+</div-->
 
 
 
-<i class="frame-top"><i></i></i><i class="frame-right"></i><i class="frame-bottom"><i></i></i><i class="frame-left"></i>
+<i class="frame-top"><i></i></i>
+<i class="frame-right"></i>
+<i class="frame-bottom"><i></i></i>
+<i class="frame-left"></i>
 
 
 
