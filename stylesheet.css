@@ -156,11 +156,11 @@ h3{
   opacity: 0;
   overflow: hidden;
   text-align: center;
-	-webkit-animation: rotateWord 20s linear 2s;
-	-moz-animation: rotateWord 20s linear 2s;
-	-o-animation: rotateWord 20s linear 2s;
-	-ms-animation: rotateWord 20s linear 2s;
-	animation: rotateWord 20s linear 2s;
+	-webkit-animation: rotateWord 22s linear 2s;
+	-moz-animation: rotateWord 22s linear 2s;
+	-o-animation: rotateWord 22s linear 2s;
+	-ms-animation: rotateWord 22s linear 2s;
+	animation: rotateWord 22s linear 2s;
 }
 
 #sixty p:nth-child(2) { 
