@@ -1,8 +1,8 @@
 *::selection {
-	background: rgba(255,0,255,0.8); /* Safari */
+	background: rgba(255,255,0,0.7); /* Safari */
 	}
 *::-moz-selection {
-	background: rgba(255,0,255,0.8); /* Firefox */
+	background: rgba(255,255,0,0.7); /* Firefox */
 }
 
 body{
