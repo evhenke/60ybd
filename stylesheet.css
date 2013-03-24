@@ -40,21 +40,21 @@ p{
 a.fr{
 	color: #627B7A;
 	text-decoration: none;
-	background-color: rgba(218, 233, 231, 0.22);
+	background-color: rgba(218, 233, 231, 0.3);
 	padding: 0 3px 0 3px;
 }
 
 a.de{
 	color: #606151;
 	text-decoration: none;
-	background-color: rgba(224, 223, 218, 0.22);
+	background-color: rgba(224, 223, 218, 0.3);
 	padding: 0 3px 0 3px;
 }
 
 a.en{
 	color: #474647;
 	text-decoration: none;
-	background-color: rgba(210, 206, 207, 0.22);
+	background-color: rgba(210, 206, 207, 0.3);
 	padding: 0 3px 0 3px;
 }
 
